@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git url: 'https://github.com/karuna299/selenium-integration.git', branch: 'main'
+        git url: 'https://github.com/Rabisankar-Rout/cicd-Assignment-Q4', branch: 'main'
       }
     }
 
